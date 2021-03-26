@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta
+			name="description"
+			content="this was created for collage project for gowtham_b developed by sri sathish"
+		/>
+		<meta property="og:image" content="/images/sm.jpg" />
+		<title>Number Guessing Game</title>
+		<link rel="stylesheet" href="/css/style.css" />
+		<link rel="shortcut icon" href="/images/smile.ico" type="image/x-icon" />
+	</head>
+
+	<body id="body">
+		<div class="main">
+			<h1 class="tittle">Guess The Number</h1>
+
+			<p class="game_msg" id="game_msg">
+				We have selected a random number between 1 - 100. See if you can
+				guess it.
+			</p>
+
+			<form id="form" autocomplete="off">
+				<input
+					max="99"
+					type="number"
+					id="guessField"
+					class="guessField"
+					placeholder="Enter the value"
+				/>
+				<input
+					type="submit"
+					value="Check the Guess"
+					class="guessSubmit"
+					id="submitguess"
+				/>
+			</form>
+			<img src="/images/start.gif" id="image" />
+			<img src="/images/win.gif" id="image1" />
+			<button id="reset" class="reset">Reset</button>
+			<button id="start" class="start">Start Game</button>
+		</div>
+		<script src="/js/index.js"></script>
+	</body>
+</html>

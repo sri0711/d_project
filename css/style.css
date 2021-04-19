@@ -104,6 +104,7 @@ body .main:hover {
 }
 
 body .start {
+  display: none;
   height: 30px;
   width: 150px;
   margin-left: 50%;

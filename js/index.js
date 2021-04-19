@@ -16,8 +16,14 @@ const start = document.getElementById('start');
 const image = document.getElementById('image');
 const image1 = document.getElementById('image1');
 const msg = document.getElementById('game_msg');
+const infomsg = document.getElementById('infomsg');
 
 start.addEventListener('click', start_game);
+
+window.onload = function () {
+	start.style = 'display:block;';
+	infomsg.style = 'display:none;';
+};
 
 function start_game() {
 	start.style = 'display :none';

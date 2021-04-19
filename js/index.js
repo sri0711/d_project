@@ -20,11 +20,6 @@ const infomsg = document.getElementById('infomsg');
 
 start.addEventListener('click', start_game);
 
-window.onload = function () {
-	start.style = 'display:block;';
-	infomsg.style = 'display:none;';
-};
-
 function start_game() {
 	start.style = 'display :none';
 	form.style = 'display:inline-flex';
@@ -83,3 +78,7 @@ function run_prog(event) {
 		form.reset();
 	}
 }
+window.onload = function () {
+	start.style = 'display:block;';
+	infomsg.style = 'display:none;';
+};
